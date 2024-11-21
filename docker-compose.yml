@@ -17,7 +17,7 @@ services:
             context: ./gpds-autos
             dockerfile: Dockerfile
         environment:
-            SPRING_DATASOURCE_URL: jdbc:mysql://mysql-sdb:3306/autos10a
+            SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/autos10a
             SPRING_DATASOURCE_USERNAME: autos
             SPRING_DATASOURCE_PASSWORD: passwordautos
             SPRING_JPA_HIBERNATE_DDL_AUTO: update
