@@ -38,3 +38,7 @@ services:
             - ./nginx.conf:/etc/nginx.conf
         networks:
             - proyecto-network
+
+networks:
+    proyecto-network:
+        driver: bridge
